@@ -1,0 +1,38 @@
+.moviesContainer {
+  display: flex;
+  padding: 10rpx;
+}
+
+.movie_img {
+  width: 128rpx;
+  height: 128rpx;
+  margin-right: 10rpx;
+}
+
+.movie_info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.movie_name {
+  font-size: 34rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie_year {
+  font-size: 32rpx;
+  color: #999;
+}
+
+.movie_director {
+  font-size: 32rpx;
+}
+
+.movie_grade {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: red;
+}

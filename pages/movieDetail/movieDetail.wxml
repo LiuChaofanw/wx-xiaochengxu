@@ -1,0 +1,10 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view>
+  <image src='{{movie.images.large}}'></image>
+  <view>
+    {{movie.original_title}}
+  </view>
+  <view>
+    {{movie.year}}
+  </view>
+</view>
